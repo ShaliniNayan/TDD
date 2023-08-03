@@ -41,10 +41,10 @@ In this project it will implement a class with some methods, but do it by doing 
 
 ### Key Features <a name="key-features"></a>
 
-- **Write a test.**
-- **Run the test; it fails.**
-- **Write code.**
-- **Run the test; it passes. If it fails go back to step 3.**
+- **Unit tests using Rspec**
+- **Write Rspec unit tests with mocks**
+- **Understand the TDD concept**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
