@@ -1,27 +1,26 @@
 class Solver
-    
-    def factorial(n)
-      raise ArgumentError, 'Factorial is not defined for negative integers.' if n < 0
-      return 1 if n == 0
-  
-      result = 1
-      (1..n).each { |i| result *= i }
-      result
+  def factorial(num)
+    raise ArgumentError, 'Factorial is not defined for negative integers.' if num.negative?
+    return 1 if n.zero?
+
+    result = 1
+    (1..num).each { |i| result *= i }
+    result
+  end
+
+  def reverse(word)
+    word.reverse
+  end
+
+  def fizzbuzz(num)
+    if (num % 3).zero? && (num % 5).zero?
+      'fizzbuzz'
+    elsif (num % 3).zero?
+      'fizz'
+    elsif (num % 5).zero?
+      'buzz'
+    else
+      num.to_s
     end
-  
-    def reverse(word)
-      word.reverse
-    end
-  
-    def fizzbuzz(n)
-      if n % 3 == 0 && n % 5 == 0
-        'fizzbuzz'
-      elsif n % 3 == 0
-        'fizz'
-      elsif n % 5 == 0
-        'buzz'
-      else
-        n.to_s
-      end
-    end
+  end
 end

@@ -1,5 +1,5 @@
 # In the test file (e.g., solver_spec.rb)
-require_relative '../solver.rb'
+require_relative '../solver'
 
 describe Solver do
   let(:solver) { Solver.new } # Create an instance of the Solver class
