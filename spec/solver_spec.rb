@@ -1,4 +1,4 @@
-require_relative 'solver'
+require_relative './solver'
 
 describe '#factorial' do
     it 'returns 1 for 0' do
