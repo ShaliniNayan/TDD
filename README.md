@@ -25,14 +25,14 @@ In this project it will implement a class with some methods, but do it by doing 
 
 - [ ] New class.
 - [ ] Method that takes one argument, an integer and returns the factorial for that number.
-- [ ] Method that takes one argument,  a string and returns the reversed.
+- [ ] Method that takes one argument, a string and returns the reversed.
 - [ ] Method that takes one argument, an integer return a string.
 - [ ] Tests for all of the methods described above have used TDD.
-
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Ruby</summary>
 </details>
@@ -40,13 +40,12 @@ In this project it will implement a class with some methods, but do it by doing 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
 - **Write a test.**
 - **Run the test; it fails.**
 - **Write code.**
 - **Run the test; it passes. If it fails go back to step 3.**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 
@@ -74,13 +73,12 @@ Go to the project directory.
   cd TDD
 ```
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- ### Run tests
 
 ```test
 TDD tests here...
-``` 
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,10 +104,9 @@ TDD tests here...
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- **#map Method Support**
-- **#reduce Method Support**
-- **#Sorting Functionality**
+- **#test-driven development (TDD)**
+- **# idea is to write test**
+- **#define what the code are going to write does, and then write the code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +116,7 @@ TDD tests here...
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ShaliniNayan/OOP-school-library/issues).
+Feel free to check the [issues page](https://github.com/ShaliniNayan/TDD/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,8 +132,8 @@ Give a ⭐️ if you like this project!
 
 ## 🔭Acknowledgments <a name="acknowledgements"></a>
 
-  I would like to thank Microverse for giving me a wonderful opportunity to work on this project
-  
+I would like to thank Microverse for giving me a wonderful opportunity to work on this project
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
@@ -144,4 +141,3 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
