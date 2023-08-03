@@ -1,6 +1,10 @@
+# In the test file (e.g., solver_spec.rb)
 require_relative '../solver.rb'
 
-describe '#factorial' do
+describe Solver do
+  let(:solver) { Solver.new } # Create an instance of the Solver class
+
+  describe '#factorial' do
     it 'returns 1 for 0' do
       expect(solver.factorial(0)).to eq(1)
     end
@@ -14,6 +18,7 @@ describe '#factorial' do
       expect { solver.factorial(-3) }.to raise_error(ArgumentError)
     end
   end
+
   describe '#reverse' do
     it 'reverses the word' do
       expect(solver.reverse('hello')).to eq('olleh')
@@ -22,6 +27,7 @@ describe '#factorial' do
       expect(solver.reverse('')).to eq('')
     end
   end
+
   describe '#fizzbuzz' do
     it 'returns "fizz" for numbers divisible by 3' do
       expect(solver.fizzbuzz(3)).to eq('fizz')
@@ -36,3 +42,4 @@ describe '#factorial' do
       expect(solver.fizzbuzz(7)).to eq('7')
     end
   end
+end
